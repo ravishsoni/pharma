@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "419441451459",
+    "project_id": "pharmaapp-dbaea",
+    "storage_bucket": "pharmaapp-dbaea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419441451459:android:a606600ddf8e5598869d76",
+        "android_client_info": {
+          "package_name": "com.sonitech.pharma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIzizUHnRsBe0FLOmbbmxCvDDHyp6rIV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
