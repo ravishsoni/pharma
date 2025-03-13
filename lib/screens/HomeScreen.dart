@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:pharma/data/imagesPath.dart';
-import 'package:pharma/screens/DrugsDetailsScreen.dart';
 import 'package:pharma/utils/AppBarUtil.dart';
 import 'package:pharma/utils/buildSampleDrugItem.dart';
 

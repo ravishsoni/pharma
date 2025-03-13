@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:firebase_database/firebase_database.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:pharma/data/ProfileDetails.dart';
 import 'package:pharma/utils/AppBarUtil.dart';
