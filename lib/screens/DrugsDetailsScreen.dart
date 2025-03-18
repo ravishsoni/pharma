@@ -31,6 +31,7 @@ class _DrugsDetailsScreenState extends State<DrugsDetailsScreen> {
         body: SingleChildScrollView(
           physics: BouncingScrollPhysics(),
           child: Container(
+            color: Colors.white,
             padding: EdgeInsets.all(8),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -189,7 +190,7 @@ class _DrugsDetailsScreenState extends State<DrugsDetailsScreen> {
                         height: 50,
                       ),
                       Container(
-                        padding: EdgeInsets.symmetric(horizontal: 16),
+                        padding: EdgeInsets.symmetric(horizontal: 10),
                         height: 50,
                         color: Colors.white,
                         child: Row(
@@ -214,7 +215,7 @@ class _DrugsDetailsScreenState extends State<DrugsDetailsScreen> {
                                     ),
                                     Text(
                                       quantity.toString(),
-                                      style: TextStyle(fontSize: 18),
+                                      style: TextStyle(fontSize: 16),
                                     ),
                                     IconButton(
                                       icon: Icon(Icons.add),
@@ -246,14 +247,14 @@ class _DrugsDetailsScreenState extends State<DrugsDetailsScreen> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Padding(
-                                      padding: EdgeInsets.symmetric(vertical: 10),
+                                      padding: EdgeInsets.symmetric(vertical: 15),
                                       child: Text(
                                         "Place Order",
                                         style: TextStyle(
                                             fontSize: 16, color: Colors.white),
                                       ),
                                     ),
-                                    SizedBox(width: 8),
+                                    Spacer(flex: 1,),
                                     Icon(Icons.arrow_forward,
                                         color: Colors.white),
                                   ],
